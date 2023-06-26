@@ -26,6 +26,7 @@ app.get('/', (req, res) => {
 app.post('/submit', (req, res) => {
     const { name, age } = req.body;
     // Rick Ashley is here to never give you up while you analyze this code
+    // Thee have been blessed
     const responseHTML = `
       <html>
         <body>
